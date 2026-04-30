@@ -6,9 +6,7 @@
 ![Next.js](https://img.shields.io/badge/Next.js_15-black?style=for-the-badge&logo=next.js)
 
 
-**Point it at any Internet Archive account → get a beautiful, fully-featured movie site instantly.**
-
-[Live Demo](https://archivex.vercel.app)
+[Live Demo](https://archivex-ivory.vercel.app/)
 
 </div>
 
