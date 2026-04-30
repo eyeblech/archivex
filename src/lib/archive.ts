@@ -1,6 +1,6 @@
 import { ArchiveItem, ArchiveMetadata, ArchiveSearchResponse } from "@/types";
 
-const UPLOADER = "roarmdl12345@gmail.com";
+const UPLOADER = process.env.ARCHIVE_UPLOADER ?? "";
 const BASE_URL = "https://archive.org";
 const SEARCH_URL = `${BASE_URL}/advancedsearch.php`;
 

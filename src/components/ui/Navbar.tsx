@@ -33,7 +33,7 @@ export default function Navbar({ onSearch, initialQuery = "" }: NavbarProps) {
         <div style={{ flex: 1, maxWidth: 420 }}>
           {onSearch && <SearchBar onSearch={onSearch} initialValue={initialQuery} />}
         </div>
-        <a href="https://archive.org/details/@999x" target="_blank" rel="noopener noreferrer"
+        <a href={`https://archive.org/details/@${process.env.NEXT_PUBLIC_ARCHIVE_USERNAME ?? ""}`} target="_blank" rel="noopener noreferrer"
           style={{ fontSize: 13, color: "var(--muted)", textDecoration: "none", transition: "color 0.2s", flexShrink: 0 }}
           onMouseEnter={e => (e.currentTarget.style.color = "var(--text)")}
           onMouseLeave={e => (e.currentTarget.style.color = "var(--muted)")}>
